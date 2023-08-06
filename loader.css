@@ -1,0 +1,68 @@
+h1 {
+    color: red;
+}
+div {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: calc(50% - 1em);
+    border-radius: 1.3em;
+    transform-origin: 1.3em 2em;
+    animation: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    /* 50% {
+        transform: rotate(180deg);
+    } */
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.a1 {
+    animation-delay: 0.1s;
+    background-color: #ffce47;
+}
+
+.a2 {
+    animation-delay: 0.2s;
+    background-color: #ffce47;
+}
+
+.a3 {
+    animation-delay: 0.3s;
+    background-color: #ffce47;
+}
+
+.a4 {
+    animation-delay: 0.4s;
+    background-color: #ffce47;
+}
+
+.a5 {
+    animation-delay: 0.5s;
+    background-color: #ffce47;
+}
+
+.a6 {
+    animation-delay: 0.6s;
+    background-color: #ffce47;
+}
+
+.a7 {
+    animation-delay: 0.7s;
+    background-color: #ffce47;
+}
+
+.a8 {
+    animation-delay: 0.8s;
+    background-color: #ffce47;
+}
